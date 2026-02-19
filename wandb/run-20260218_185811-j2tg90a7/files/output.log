@@ -1,0 +1,379 @@
+Epoch 1/50
+----------
+100%|██████████| 341/341 [03:02<00:00,  1.86it/s]
+train Loss: 5.4116
+100%|██████████| 1388/1388 [00:45<00:00, 30.57it/s]
+dev Loss: 4.1938
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 2/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 5.1802
+100%|██████████| 1388/1388 [00:50<00:00, 27.42it/s]
+dev Loss: 4.1490
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 3/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.85it/s]
+train Loss: 4.9495
+100%|██████████| 1388/1388 [00:45<00:00, 30.32it/s]
+dev Loss: 4.0299
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 4/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.7532
+100%|██████████| 1388/1388 [00:45<00:00, 30.20it/s]
+dev Loss: 3.9690
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 5/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.5555
+100%|██████████| 1388/1388 [00:45<00:00, 30.53it/s]
+dev Loss: 3.8894
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 6/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.4202
+100%|██████████| 1388/1388 [00:46<00:00, 29.72it/s]
+dev Loss: 3.8142
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 7/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.2711
+100%|██████████| 1388/1388 [00:46<00:00, 29.67it/s]
+dev Loss: 3.6576
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 8/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.1874
+100%|██████████| 1388/1388 [00:46<00:00, 29.90it/s]
+dev Loss: 3.6151
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 9/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.2217
+100%|██████████| 1388/1388 [00:46<00:00, 29.90it/s]
+dev Loss: 3.6436
+
+Epoch 10/50
+----------
+100%|██████████| 341/341 [03:05<00:00,  1.84it/s]
+train Loss: 4.1013
+100%|██████████| 1388/1388 [00:46<00:00, 29.95it/s]
+dev Loss: 3.5634
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 11/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.0329
+100%|██████████| 1388/1388 [00:46<00:00, 29.76it/s]
+dev Loss: 3.5156
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 12/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.0347
+100%|██████████| 1388/1388 [00:46<00:00, 29.94it/s]
+dev Loss: 3.5047
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 13/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.0321
+100%|██████████| 1388/1388 [00:46<00:00, 30.03it/s]
+dev Loss: 3.4858
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 14/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.9715
+100%|██████████| 1388/1388 [00:46<00:00, 29.62it/s]
+dev Loss: 3.4722
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 15/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.9479
+100%|██████████| 1388/1388 [00:46<00:00, 29.88it/s]
+dev Loss: 3.4759
+
+Epoch 16/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.9191
+100%|██████████| 1388/1388 [00:46<00:00, 29.90it/s]
+dev Loss: 3.4660
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 17/50
+----------
+100%|██████████| 341/341 [03:02<00:00,  1.86it/s]
+train Loss: 3.9094
+100%|██████████| 1388/1388 [00:46<00:00, 29.93it/s]
+dev Loss: 3.4485
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 18/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8952
+100%|██████████| 1388/1388 [00:45<00:00, 30.35it/s]
+dev Loss: 3.4520
+
+Epoch 19/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8827
+100%|██████████| 1388/1388 [00:46<00:00, 29.88it/s]
+dev Loss: 3.4422
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 20/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8514
+100%|██████████| 1388/1388 [00:46<00:00, 29.58it/s]
+dev Loss: 3.4329
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 21/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8349
+100%|██████████| 1388/1388 [00:46<00:00, 29.65it/s]
+dev Loss: 3.4378
+
+Epoch 22/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8194
+100%|██████████| 1388/1388 [00:46<00:00, 29.73it/s]
+dev Loss: 3.4349
+
+Epoch 23/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8046
+100%|██████████| 1388/1388 [00:45<00:00, 30.29it/s]
+dev Loss: 3.4437
+
+Epoch 24/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7895
+100%|██████████| 1388/1388 [00:46<00:00, 29.97it/s]
+dev Loss: 3.4184
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 25/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7724
+100%|██████████| 1388/1388 [00:47<00:00, 29.53it/s]
+dev Loss: 3.4174
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 26/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7564
+100%|██████████| 1388/1388 [00:46<00:00, 29.76it/s]
+dev Loss: 3.4175
+
+Epoch 27/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7471
+100%|██████████| 1388/1388 [00:46<00:00, 29.77it/s]
+dev Loss: 3.4326
+
+Epoch 28/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7458
+100%|██████████| 1388/1388 [00:46<00:00, 29.62it/s]
+dev Loss: 3.4140
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 29/50
+----------
+100%|██████████| 341/341 [03:05<00:00,  1.84it/s]
+train Loss: 3.7683
+100%|██████████| 1388/1388 [00:46<00:00, 29.82it/s]
+dev Loss: 3.4190
+
+Epoch 30/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7552
+100%|██████████| 1388/1388 [00:46<00:00, 29.66it/s]
+dev Loss: 3.4024
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 31/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7306
+100%|██████████| 1388/1388 [00:46<00:00, 30.08it/s]
+dev Loss: 3.4078
+
+Epoch 32/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7306
+100%|██████████| 1388/1388 [00:46<00:00, 29.72it/s]
+dev Loss: 3.4079
+
+Epoch 33/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.85it/s]
+train Loss: 3.7283
+100%|██████████| 1388/1388 [00:46<00:00, 29.62it/s]
+dev Loss: 3.4071
+
+Epoch 34/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7247
+100%|██████████| 1388/1388 [00:46<00:00, 29.97it/s]
+dev Loss: 3.4064
+
+Epoch 35/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7264
+100%|██████████| 1388/1388 [00:46<00:00, 29.88it/s]
+dev Loss: 3.4050
+
+Epoch 36/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7224
+100%|██████████| 1388/1388 [00:46<00:00, 30.11it/s]
+dev Loss: 3.4034
+
+Epoch 37/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.85it/s]
+train Loss: 3.7249
+100%|██████████| 1388/1388 [00:45<00:00, 30.35it/s]
+dev Loss: 3.4029
+
+Epoch 38/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7239
+100%|██████████| 1388/1388 [00:46<00:00, 29.98it/s]
+dev Loss: 3.4005
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 39/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7208
+100%|██████████| 1388/1388 [00:46<00:00, 30.06it/s]
+dev Loss: 3.4034
+
+Epoch 40/50
+----------
+100%|██████████| 341/341 [03:02<00:00,  1.86it/s]
+train Loss: 3.7146
+100%|██████████| 1388/1388 [00:46<00:00, 29.94it/s]
+dev Loss: 3.4028
+
+Epoch 41/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7136
+100%|██████████| 1388/1388 [00:46<00:00, 29.98it/s]
+dev Loss: 3.4035
+
+Epoch 42/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7246
+100%|██████████| 1388/1388 [00:45<00:00, 30.31it/s]
+dev Loss: 3.4054
+
+Epoch 43/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7180
+100%|██████████| 1388/1388 [00:45<00:00, 30.18it/s]
+dev Loss: 3.3990
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 44/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7105
+100%|██████████| 1388/1388 [00:46<00:00, 30.05it/s]
+dev Loss: 3.3943
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 45/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7098
+100%|██████████| 1388/1388 [00:46<00:00, 29.74it/s]
+dev Loss: 3.3927
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 46/50
+----------
+100%|██████████| 341/341 [03:05<00:00,  1.84it/s]
+train Loss: 3.7037
+100%|██████████| 1388/1388 [00:47<00:00, 29.25it/s]
+dev Loss: 3.3887
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_embedding-module.pt
+
+Epoch 47/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7088
+100%|██████████| 1388/1388 [00:47<00:00, 29.52it/s]
+dev Loss: 3.3985
+
+Epoch 48/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7072
+100%|██████████| 1388/1388 [00:46<00:00, 29.81it/s]
+dev Loss: 3.4025
+
+Epoch 49/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7142
+100%|██████████| 1388/1388 [00:46<00:00, 29.80it/s]
+dev Loss: 3.3955
+
+Epoch 50/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7154
+100%|██████████| 1388/1388 [00:45<00:00, 30.41it/s]
+dev Loss: 3.3933
+
+Training complete in 197m 3s
+Best val loss: 3.388730
+update last checkpoint: ./save_model/checkpoints/EEGPT/last/text_embedding-module.pt

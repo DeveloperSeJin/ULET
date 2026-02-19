@@ -1,0 +1,13 @@
+{"time":"2026-02-18T04:00:21.329771518+09:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-02-18T04:00:21.657467021+09:00","level":"INFO","msg":"stream: created new stream","id":"n473mon6"}
+{"time":"2026-02-18T04:00:21.657595091+09:00","level":"INFO","msg":"handler: started","stream_id":"n473mon6"}
+{"time":"2026-02-18T04:00:21.657769257+09:00","level":"INFO","msg":"stream: started","id":"n473mon6"}
+{"time":"2026-02-18T04:00:21.657801148+09:00","level":"INFO","msg":"writer: started","stream_id":"n473mon6"}
+{"time":"2026-02-18T04:00:21.657806264+09:00","level":"INFO","msg":"sender: started","stream_id":"n473mon6"}
+{"time":"2026-02-18T07:08:07.573256012+09:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/sejinp98/SRDELTA/n473mon6/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-02-18T12:36:14.774332241+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-18T12:36:15.046350377+09:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-18T12:36:15.049907314+09:00","level":"INFO","msg":"stream: closing","id":"n473mon6"}
+{"time":"2026-02-18T12:36:15.049918003+09:00","level":"INFO","msg":"handler: closed","stream_id":"n473mon6"}
+{"time":"2026-02-18T12:36:15.04996535+09:00","level":"INFO","msg":"sender: closed","stream_id":"n473mon6"}
+{"time":"2026-02-18T12:36:15.049972159+09:00","level":"INFO","msg":"stream: closed","id":"n473mon6"}

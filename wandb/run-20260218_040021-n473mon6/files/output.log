@@ -1,0 +1,600 @@
+wandb: Detected [huggingface_hub.inference] in use.
+wandb: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+wandb: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Epoch 1/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 7.7876
+100%|██████████| 1388/1388 [00:44<00:00, 31.47it/s]
+dev Loss: 6.2712
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 2/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 6.3933
+100%|██████████| 1388/1388 [00:43<00:00, 32.22it/s]
+dev Loss: 5.2383
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 3/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 6.2380
+100%|██████████| 1388/1388 [00:43<00:00, 31.89it/s]
+dev Loss: 5.1704
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 4/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 6.1363
+100%|██████████| 1388/1388 [00:43<00:00, 31.92it/s]
+dev Loss: 5.2455
+
+Epoch 5/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 6.1444
+100%|██████████| 1388/1388 [00:44<00:00, 31.06it/s]
+dev Loss: 5.2581
+
+Epoch 6/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 6.0973
+100%|██████████| 1388/1388 [00:43<00:00, 31.72it/s]
+dev Loss: 5.2878
+
+Epoch 7/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.9435
+100%|██████████| 1388/1388 [00:43<00:00, 31.76it/s]
+dev Loss: 5.2367
+
+Epoch 8/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.8409
+100%|██████████| 1388/1388 [00:43<00:00, 31.93it/s]
+dev Loss: 5.0846
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 9/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.7857
+100%|██████████| 1388/1388 [00:45<00:00, 30.75it/s]
+dev Loss: 5.0463
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 10/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 6.0645
+100%|██████████| 1388/1388 [00:42<00:00, 32.44it/s]
+dev Loss: 5.1557
+
+Epoch 11/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 6.2763
+100%|██████████| 1388/1388 [00:44<00:00, 31.19it/s]
+dev Loss: 5.0125
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 12/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.9692
+100%|██████████| 1388/1388 [00:44<00:00, 31.46it/s]
+dev Loss: 4.9731
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 13/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.8490
+100%|██████████| 1388/1388 [00:44<00:00, 31.46it/s]
+dev Loss: 4.9300
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 14/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.7608
+100%|██████████| 1388/1388 [00:42<00:00, 32.44it/s]
+dev Loss: 4.9572
+
+Epoch 15/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.7427
+100%|██████████| 1388/1388 [00:43<00:00, 32.05it/s]
+dev Loss: 4.8980
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 16/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.8265
+100%|██████████| 1388/1388 [00:43<00:00, 32.20it/s]
+dev Loss: 4.9239
+
+Epoch 17/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.6525
+100%|██████████| 1388/1388 [00:43<00:00, 31.79it/s]
+dev Loss: 4.9169
+
+Epoch 18/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.7857
+100%|██████████| 1388/1388 [00:42<00:00, 32.45it/s]
+dev Loss: 5.0107
+
+Epoch 19/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.8645
+100%|██████████| 1388/1388 [00:43<00:00, 31.98it/s]
+dev Loss: 4.9033
+
+Epoch 20/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.7254
+100%|██████████| 1388/1388 [00:43<00:00, 32.17it/s]
+dev Loss: 4.9938
+
+Epoch 21/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.7115
+100%|██████████| 1388/1388 [00:43<00:00, 32.02it/s]
+dev Loss: 4.9643
+
+Epoch 22/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6709
+100%|██████████| 1388/1388 [00:43<00:00, 31.63it/s]
+dev Loss: 4.9532
+
+Epoch 23/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.6934
+100%|██████████| 1388/1388 [00:44<00:00, 31.34it/s]
+dev Loss: 4.9492
+
+Epoch 24/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6830
+100%|██████████| 1388/1388 [00:43<00:00, 31.63it/s]
+dev Loss: 4.9401
+
+Epoch 25/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6731
+100%|██████████| 1388/1388 [00:44<00:00, 31.03it/s]
+dev Loss: 4.9276
+
+Epoch 26/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6852
+100%|██████████| 1388/1388 [00:43<00:00, 31.99it/s]
+dev Loss: 4.9259
+
+Epoch 27/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.6716
+100%|██████████| 1388/1388 [00:44<00:00, 31.31it/s]
+dev Loss: 4.9236
+
+Epoch 28/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6567
+100%|██████████| 1388/1388 [00:43<00:00, 31.76it/s]
+dev Loss: 4.9075
+
+Epoch 29/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6399
+100%|██████████| 1388/1388 [00:44<00:00, 31.27it/s]
+dev Loss: 4.9114
+
+Epoch 30/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6531
+100%|██████████| 1388/1388 [00:43<00:00, 31.68it/s]
+dev Loss: 4.9000
+
+Epoch 31/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6349
+100%|██████████| 1388/1388 [00:43<00:00, 32.11it/s]
+dev Loss: 4.8972
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 32/100
+----------
+100%|██████████| 341/341 [05:32<00:00,  1.02it/s]
+train Loss: 5.6412
+100%|██████████| 1388/1388 [00:43<00:00, 31.59it/s]
+dev Loss: 4.8836
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 33/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6265
+100%|██████████| 1388/1388 [00:43<00:00, 31.61it/s]
+dev Loss: 4.8821
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 34/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.6069
+100%|██████████| 1388/1388 [00:45<00:00, 30.33it/s]
+dev Loss: 4.8729
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 35/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.6054
+100%|██████████| 1388/1388 [00:44<00:00, 31.22it/s]
+dev Loss: 4.8532
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 36/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.6069
+100%|██████████| 1388/1388 [00:44<00:00, 31.43it/s]
+dev Loss: 4.8605
+
+Epoch 37/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5964
+100%|██████████| 1388/1388 [00:44<00:00, 30.88it/s]
+dev Loss: 4.8322
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 38/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5878
+100%|██████████| 1388/1388 [00:44<00:00, 31.20it/s]
+dev Loss: 4.8239
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 39/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.6053
+100%|██████████| 1388/1388 [00:44<00:00, 31.14it/s]
+dev Loss: 4.8177
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 40/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.5839
+100%|██████████| 1388/1388 [00:44<00:00, 31.37it/s]
+dev Loss: 4.8173
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 41/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5958
+100%|██████████| 1388/1388 [00:43<00:00, 31.61it/s]
+dev Loss: 4.8187
+
+Epoch 42/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5801
+100%|██████████| 1388/1388 [00:44<00:00, 31.44it/s]
+dev Loss: 4.8179
+
+Epoch 43/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5906
+100%|██████████| 1388/1388 [00:44<00:00, 31.28it/s]
+dev Loss: 4.8164
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 44/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5704
+100%|██████████| 1388/1388 [00:44<00:00, 31.28it/s]
+dev Loss: 4.8159
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 45/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.5920
+100%|██████████| 1388/1388 [00:43<00:00, 31.58it/s]
+dev Loss: 4.8147
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 46/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.6056
+100%|██████████| 1388/1388 [00:44<00:00, 31.33it/s]
+dev Loss: 4.8135
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 47/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5841
+100%|██████████| 1388/1388 [00:44<00:00, 31.33it/s]
+dev Loss: 4.8125
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 48/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5769
+100%|██████████| 1388/1388 [00:44<00:00, 31.27it/s]
+dev Loss: 4.8112
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 49/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5946
+100%|██████████| 1388/1388 [00:43<00:00, 31.99it/s]
+dev Loss: 4.8100
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 50/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5920
+100%|██████████| 1388/1388 [00:43<00:00, 31.71it/s]
+dev Loss: 4.8090
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 51/100
+----------
+100%|██████████| 341/341 [05:35<00:00,  1.02it/s]
+train Loss: 5.5876
+100%|██████████| 1388/1388 [00:43<00:00, 31.64it/s]
+dev Loss: 4.8078
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt
+
+Epoch 52/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5751
+100%|██████████| 1388/1388 [00:43<00:00, 31.65it/s]
+dev Loss: 4.8085
+
+Epoch 53/100
+----------
+100%|██████████| 341/341 [05:35<00:00,  1.02it/s]
+train Loss: 5.5663
+100%|██████████| 1388/1388 [00:44<00:00, 31.33it/s]
+dev Loss: 4.8085
+
+Epoch 54/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5865
+100%|██████████| 1388/1388 [00:43<00:00, 31.75it/s]
+dev Loss: 4.8082
+
+Epoch 55/100
+----------
+100%|██████████| 341/341 [05:35<00:00,  1.02it/s]
+train Loss: 5.5848
+100%|██████████| 1388/1388 [00:43<00:00, 31.76it/s]
+dev Loss: 4.8084
+
+Epoch 56/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5728
+100%|██████████| 1388/1388 [00:43<00:00, 32.01it/s]
+dev Loss: 4.8094
+
+Epoch 57/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5839
+100%|██████████| 1388/1388 [00:43<00:00, 31.82it/s]
+dev Loss: 4.8090
+
+Epoch 58/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.5868
+100%|██████████| 1388/1388 [00:43<00:00, 32.08it/s]
+dev Loss: 4.8095
+
+Epoch 59/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5728
+100%|██████████| 1388/1388 [00:43<00:00, 31.69it/s]
+dev Loss: 4.8084
+
+Epoch 60/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5800
+100%|██████████| 1388/1388 [00:43<00:00, 32.04it/s]
+dev Loss: 4.8094
+
+Epoch 61/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5835
+100%|██████████| 1388/1388 [00:43<00:00, 31.64it/s]
+dev Loss: 4.8094
+
+Epoch 62/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5749
+100%|██████████| 1388/1388 [00:43<00:00, 31.73it/s]
+dev Loss: 4.8094
+
+Epoch 63/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5703
+100%|██████████| 1388/1388 [00:44<00:00, 31.52it/s]
+dev Loss: 4.8094
+
+Epoch 64/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5776
+100%|██████████| 1388/1388 [00:44<00:00, 31.37it/s]
+dev Loss: 4.8094
+
+Epoch 65/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.5972
+100%|██████████| 1388/1388 [00:44<00:00, 31.29it/s]
+dev Loss: 4.8093
+
+Epoch 66/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5656
+100%|██████████| 1388/1388 [00:44<00:00, 31.32it/s]
+dev Loss: 4.8094
+
+Epoch 67/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5747
+100%|██████████| 1388/1388 [00:44<00:00, 31.36it/s]
+dev Loss: 4.8093
+
+Epoch 68/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.5818
+100%|██████████| 1388/1388 [00:44<00:00, 31.09it/s]
+dev Loss: 4.8094
+
+Epoch 69/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5659
+100%|██████████| 1388/1388 [00:44<00:00, 30.96it/s]
+dev Loss: 4.8092
+
+Epoch 70/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5879
+100%|██████████| 1388/1388 [00:44<00:00, 31.41it/s]
+dev Loss: 4.8093
+
+Epoch 71/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5962
+100%|██████████| 1388/1388 [00:45<00:00, 30.73it/s]
+dev Loss: 4.8092
+
+Epoch 72/100
+----------
+100%|██████████| 341/341 [05:33<00:00,  1.02it/s]
+train Loss: 5.5680
+100%|██████████| 1388/1388 [00:43<00:00, 32.02it/s]
+dev Loss: 4.8093
+
+Epoch 73/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5462
+100%|██████████| 1388/1388 [00:44<00:00, 31.45it/s]
+dev Loss: 4.8092
+
+Epoch 74/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5708
+100%|██████████| 1388/1388 [00:44<00:00, 31.52it/s]
+dev Loss: 4.8093
+
+Epoch 75/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5669
+100%|██████████| 1388/1388 [00:44<00:00, 31.51it/s]
+dev Loss: 4.8092
+
+Epoch 76/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5927
+100%|██████████| 1388/1388 [00:44<00:00, 31.46it/s]
+dev Loss: 4.8092
+
+Epoch 77/100
+----------
+100%|██████████| 341/341 [05:35<00:00,  1.02it/s]
+train Loss: 5.5690
+100%|██████████| 1388/1388 [00:43<00:00, 31.57it/s]
+dev Loss: 4.8092
+
+Epoch 78/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5644
+100%|██████████| 1388/1388 [00:44<00:00, 31.17it/s]
+dev Loss: 4.8092
+
+Epoch 79/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5634
+100%|██████████| 1388/1388 [00:43<00:00, 31.69it/s]
+dev Loss: 4.8092
+
+Epoch 80/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5799
+100%|██████████| 1388/1388 [00:44<00:00, 31.32it/s]
+dev Loss: 4.8092
+
+Epoch 81/100
+----------
+100%|██████████| 341/341 [05:34<00:00,  1.02it/s]
+train Loss: 5.5743
+100%|██████████| 1388/1388 [00:43<00:00, 32.03it/s]
+dev Loss: 4.8091
+
+Early stopping triggered (patience=20) at epoch 81
+Training stopped in 515m 52s
+update last checkpoint: ./save_model/checkpoints/EEGPT/best/fintuning_pretrained-module.pt-module.pt

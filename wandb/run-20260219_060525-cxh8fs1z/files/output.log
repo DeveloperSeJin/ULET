@@ -1,0 +1,387 @@
+Epoch 1/50
+----------
+100%|██████████| 341/341 [03:02<00:00,  1.87it/s]
+train Loss: 6.7758
+100%|██████████| 1388/1388 [00:44<00:00, 31.06it/s]
+dev Loss: 5.1135
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 2/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 6.2565
+100%|██████████| 1388/1388 [00:44<00:00, 30.86it/s]
+dev Loss: 4.7783
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 3/50
+----------
+100%|██████████| 341/341 [03:02<00:00,  1.86it/s]
+train Loss: 5.9371
+100%|██████████| 1388/1388 [00:45<00:00, 30.60it/s]
+dev Loss: 4.5891
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 4/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 5.7261
+100%|██████████| 1388/1388 [00:45<00:00, 30.59it/s]
+dev Loss: 4.4717
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 5/50
+----------
+100%|██████████| 341/341 [03:02<00:00,  1.86it/s]
+train Loss: 5.5850
+100%|██████████| 1388/1388 [00:46<00:00, 29.90it/s]
+dev Loss: 4.4050
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 6/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 5.4278
+100%|██████████| 1388/1388 [00:45<00:00, 30.27it/s]
+dev Loss: 4.3260
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 7/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 5.3007
+100%|██████████| 1388/1388 [00:45<00:00, 30.78it/s]
+dev Loss: 4.2669
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 8/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 5.1277
+100%|██████████| 1388/1388 [00:44<00:00, 30.87it/s]
+dev Loss: 4.1960
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 9/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.9586
+100%|██████████| 1388/1388 [00:45<00:00, 30.54it/s]
+dev Loss: 4.1131
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 10/50
+----------
+100%|██████████| 341/341 [03:05<00:00,  1.84it/s]
+train Loss: 4.8319
+100%|██████████| 1388/1388 [00:44<00:00, 31.25it/s]
+dev Loss: 4.0325
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 11/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.6961
+100%|██████████| 1388/1388 [00:45<00:00, 30.45it/s]
+dev Loss: 3.9641
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 12/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.5889
+100%|██████████| 1388/1388 [00:45<00:00, 30.33it/s]
+dev Loss: 3.8796
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 13/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.4748
+100%|██████████| 1388/1388 [00:46<00:00, 30.00it/s]
+dev Loss: 3.7927
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 14/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.3859
+100%|██████████| 1388/1388 [00:46<00:00, 30.17it/s]
+dev Loss: 3.7388
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 15/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.2927
+100%|██████████| 1388/1388 [00:45<00:00, 30.23it/s]
+dev Loss: 3.6792
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 16/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.2211
+100%|██████████| 1388/1388 [00:45<00:00, 30.79it/s]
+dev Loss: 3.6378
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 17/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.1646
+100%|██████████| 1388/1388 [00:45<00:00, 30.59it/s]
+dev Loss: 3.6099
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 18/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.85it/s]
+train Loss: 4.1227
+100%|██████████| 1388/1388 [00:46<00:00, 29.97it/s]
+dev Loss: 3.5884
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 19/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.0966
+100%|██████████| 1388/1388 [00:44<00:00, 31.09it/s]
+dev Loss: 3.5634
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 20/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.0553
+100%|██████████| 1388/1388 [00:45<00:00, 30.66it/s]
+dev Loss: 3.5482
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 21/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 4.0268
+100%|██████████| 1388/1388 [00:44<00:00, 31.11it/s]
+dev Loss: 3.5253
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 22/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.9999
+100%|██████████| 1388/1388 [00:44<00:00, 31.18it/s]
+dev Loss: 3.5054
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 23/50
+----------
+100%|██████████| 341/341 [03:02<00:00,  1.86it/s]
+train Loss: 3.9594
+100%|██████████| 1388/1388 [00:45<00:00, 30.24it/s]
+dev Loss: 3.5062
+
+Epoch 24/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.9358
+100%|██████████| 1388/1388 [00:45<00:00, 30.58it/s]
+dev Loss: 3.4804
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 25/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.9243
+100%|██████████| 1388/1388 [00:45<00:00, 30.51it/s]
+dev Loss: 3.4739
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 26/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8951
+100%|██████████| 1388/1388 [00:45<00:00, 30.26it/s]
+dev Loss: 3.4598
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 27/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8763
+100%|██████████| 1388/1388 [00:44<00:00, 31.43it/s]
+dev Loss: 3.4488
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 28/50
+----------
+100%|██████████| 341/341 [03:05<00:00,  1.84it/s]
+train Loss: 3.8582
+100%|██████████| 1388/1388 [00:45<00:00, 30.53it/s]
+dev Loss: 3.4375
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 29/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8415
+100%|██████████| 1388/1388 [00:45<00:00, 30.45it/s]
+dev Loss: 3.4528
+
+Epoch 30/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8266
+100%|██████████| 1388/1388 [00:45<00:00, 30.82it/s]
+dev Loss: 3.4248
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 31/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8242
+100%|██████████| 1388/1388 [00:46<00:00, 30.00it/s]
+dev Loss: 3.4235
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 32/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8191
+100%|██████████| 1388/1388 [00:45<00:00, 30.63it/s]
+dev Loss: 3.4261
+
+Epoch 33/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8184
+100%|██████████| 1388/1388 [00:44<00:00, 31.04it/s]
+dev Loss: 3.4230
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 34/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8181
+100%|██████████| 1388/1388 [00:46<00:00, 30.09it/s]
+dev Loss: 3.4280
+
+Epoch 35/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8127
+100%|██████████| 1388/1388 [00:45<00:00, 30.77it/s]
+dev Loss: 3.4218
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 36/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8123
+100%|██████████| 1388/1388 [00:45<00:00, 30.58it/s]
+dev Loss: 3.4242
+
+Epoch 37/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8094
+100%|██████████| 1388/1388 [00:44<00:00, 31.00it/s]
+dev Loss: 3.4219
+
+Epoch 38/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8078
+100%|██████████| 1388/1388 [00:44<00:00, 31.11it/s]
+dev Loss: 3.4179
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 39/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8165
+100%|██████████| 1388/1388 [00:44<00:00, 31.01it/s]
+dev Loss: 3.4209
+
+Epoch 40/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8050
+100%|██████████| 1388/1388 [00:44<00:00, 31.13it/s]
+dev Loss: 3.4248
+
+Epoch 41/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8036
+100%|██████████| 1388/1388 [00:45<00:00, 30.46it/s]
+dev Loss: 3.4242
+
+Epoch 42/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8051
+100%|██████████| 1388/1388 [00:45<00:00, 30.39it/s]
+dev Loss: 3.4210
+
+Epoch 43/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8036
+100%|██████████| 1388/1388 [00:45<00:00, 30.63it/s]
+dev Loss: 3.4229
+
+Epoch 44/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7995
+100%|██████████| 1388/1388 [00:45<00:00, 30.65it/s]
+dev Loss: 3.4185
+
+Epoch 45/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7948
+100%|██████████| 1388/1388 [00:44<00:00, 31.03it/s]
+dev Loss: 3.4229
+
+Epoch 46/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7950
+100%|██████████| 1388/1388 [00:45<00:00, 30.65it/s]
+dev Loss: 3.4220
+
+Epoch 47/50
+----------
+100%|██████████| 341/341 [03:05<00:00,  1.84it/s]
+train Loss: 3.7967
+100%|██████████| 1388/1388 [00:44<00:00, 31.28it/s]
+dev Loss: 3.4174
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 48/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.8039
+100%|██████████| 1388/1388 [00:45<00:00, 30.23it/s]
+dev Loss: 3.4155
+update best on dev checkpoint: ./save_model/checkpoints/EEGPT/best/text_emedding_DDPM-module.pt
+
+Epoch 49/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7937
+100%|██████████| 1388/1388 [00:45<00:00, 30.60it/s]
+dev Loss: 3.4158
+
+Epoch 50/50
+----------
+100%|██████████| 341/341 [03:03<00:00,  1.86it/s]
+train Loss: 3.7886
+100%|██████████| 1388/1388 [00:44<00:00, 31.00it/s]
+dev Loss: 3.4189
+
+Training complete in 197m 36s
+Best val loss: 3.415530
+update last checkpoint: ./save_model/checkpoints/EEGPT/last/text_emedding_DDPM-module.pt

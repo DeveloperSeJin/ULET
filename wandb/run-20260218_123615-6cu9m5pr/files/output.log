@@ -1,0 +1,15 @@
+Epoch 1/50
+----------
+  0%|          | 1/341 [00:03<22:02,  3.89s/it]
+Traceback (most recent call last):
+  File "/home/saul_park/workspace/code/ULET/train.py", line 461, in <module>
+  File "/home/saul_park/workspace/code/ULET/train.py", line 77, in train_model
+    with torch.set_grad_enabled(phase == 'train'):
+  File "/home/saul_park/miniconda3/envs/wordlevel/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/saul_park/workspace/code/ULET/eegpt.py", line 491, in forward
+  File "/home/saul_park/miniconda3/envs/wordlevel/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/saul_park/miniconda3/envs/wordlevel/lib/python3.10/site-packages/transformers/models/bart/modeling_bart.py", line 1596, in forward
+    lm_logits = lm_logits + self.final_logits_bias.to(lm_logits.device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 344.00 MiB (GPU 1; 47.37 GiB total capacity; 46.28 GiB already allocated; 337.94 MiB free; 46.49 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

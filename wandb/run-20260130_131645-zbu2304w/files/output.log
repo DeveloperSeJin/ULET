@@ -1,0 +1,24 @@
+[34m[1mwandb[0m: Detected [huggingface_hub.inference] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Epoch 1/100
+----------
+Epoch 1/100
+----------
+  0%|                                                                                                                                | 0/341 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/saul_park/workspace/code/ULET/train.py", line 403, in <module>
+    model = train_model(dataloaders, device, model, optimizer_step1, exp_lr_scheduler_step1, num_epochs=num_epochs_step1,
+  File "/home/saul_park/workspace/code/ULET/train.py", line 79, in train_model
+    out, loss = model(batch= (input_embeddings_batch,target_ids_batch),input_masks_batch= input_masks_batch)
+  File "/home/saul_park/miniconda3/envs/wordlevel/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/saul_park/workspace/code/ULET/eegpt.py", line 484, in forward
+    x, logit = self._forward(x)
+  File "/home/saul_park/workspace/code/ULET/eegpt.py", line 456, in _forward
+    z = self.target_encoder(x, self.chans_id.to(x))
+  File "/home/saul_park/miniconda3/envs/wordlevel/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/saul_park/workspace/code/ULET/EEGPT_mcae.py", line 876, in forward
+    assert N==self.num_patches[1] and C==self.num_patches[0], f"{N}=={self.num_patches[1]} and {C}=={self.num_patches[0]}"
+AssertionError: 80==32 and 62==32

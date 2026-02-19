@@ -1,0 +1,93 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            7zg6cb8f91pqes7kcj5el0jwd0dg52bs:
+                args:
+                    - --task_name
+                    - task1_task2_taskNRv2
+                    - --num_epoch_step1
+                    - "100"
+                    - --num_epoch_step2
+                    - "50"
+                    - -lr1
+                    - "0.00002"
+                    - -lr2
+                    - "0.00002"
+                    - -b
+                    - "32"
+                    - --cuda
+                    - cuda:2
+                    - -s
+                    - ./save_model/checkpoints/pretrainedEEGPT
+                    - -path
+                    - ./save_model/checkpoints/EEGPT/EEGPT_base2_D.pt
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 28
+                cpu_count_logical: 56
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1967317549056"
+                        used: "54259412992"
+                email: sejinp98@gmail.com
+                executable: /home/saul_park/miniconda3/envs/wordlevel/bin/python3
+                gpu: NVIDIA RTX 6000 Ada Generation
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX 6000 Ada Generation
+                      uuid: GPU-d18a347a-a83b-6d85-78b3-42721c247510
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-8c5c166b-5d2a-5f99-04f7-ba8c9cd57e85
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-38dcbe00-6c8c-870a-83da-4ff0c96538b8
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX 6000 Ada Generation
+                      uuid: GPU-f8e60a29-aeb0-a698-05b5-92f1db3438e7
+                host: affctiv
+                memory:
+                    total: "269882855424"
+                os: Linux-6.8.0-87-generic-x86_64-with-glibc2.35
+                program: /home/saul_park/workspace/code/ULET/train.py
+                python: CPython 3.10.18
+                root: /home/saul_park/workspace/code/ULET
+                startedAt: "2026-02-08T16:45:20.310595Z"
+                writerId: 7zg6cb8f91pqes7kcj5el0jwd0dg52bs
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 71
+            "3":
+                - 2
+                - 13
+                - 61
+            "4": 3.10.18
+            "5": 0.23.1
+            "6": 4.35.2
+            "12": 0.23.1
+            "13": linux-x86_64

@@ -1,0 +1,16 @@
+[34m[1mwandb[0m: Detected [huggingface_hub.inference] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Epoch 1/100
+----------
+  1%|▊                                                      | 5/341 [00:05<06:12,  1.11s/it]
+Traceback (most recent call last):
+  File "/home/saul_park/workspace/code/ULET/train.py", line 393, in <module>
+    model = train_model(dataloaders, device, model, optimizer_step1, exp_lr_scheduler_step1, num_epochs=num_epochs_step1,
+  File "/home/saul_park/workspace/code/ULET/train.py", line 87, in train_model
+    loss_sum.backward()
+  File "/home/saul_park/miniconda3/envs/wordlevel/lib/python3.10/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/saul_park/miniconda3/envs/wordlevel/lib/python3.10/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
