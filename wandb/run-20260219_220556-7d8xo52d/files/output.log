@@ -1,0 +1,12 @@
+wandb: Detected [huggingface_hub.inference] in use.
+wandb: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+wandb: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Epoch 1/100
+----------
+  0%|          | 0/341 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/saul_park/workspace/code/ULET/train.py", line 402, in <module>
+    model = train_model(dataloaders, device, model, optimizer_step1, exp_lr_scheduler_step1, num_epochs=num_epochs_step1,
+  File "/home/saul_park/workspace/code/ULET/train.py", line 79, in train_model
+    out, loss = model(batch= (input_embeddings_batch,target_ids_batch),input_masks_batch= input_masks_batch)
+ValueError: too many values to unpack (expected 2)

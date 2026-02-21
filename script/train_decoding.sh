@@ -28,7 +28,7 @@ fi
 
 batch=32
 
-save_name=text_embedding
+save_name=CNNembedding
 
 python3 pretrain.py \
     --task_name task1_task2_taskNRv2 \

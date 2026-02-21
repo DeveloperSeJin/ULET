@@ -70,7 +70,7 @@ def train(dataloaders, device, model, optimizer, scheduler, num_epochs=25, check
     	        # track history if only in train
                 with torch.set_grad_enabled(phase == 'train'):
                     # warm_up_rate = get_linear_annealing_weight(epoch, 10, 30)  # Update the annealing weight
-                    loss = model(input_embeddings_batch, context)
+                    _, loss = model(input_embeddings_batch, context)
                     """calculate loss"""
 
                     if phase == 'train':

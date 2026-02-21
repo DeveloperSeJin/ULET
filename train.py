@@ -22,7 +22,7 @@ from data.data_for_rawEEG import ZuCo_dataset
 from functools import partial
 
 from utils import *
-from eegpt import EEGPTCausal, EEGDiffusion, Convolution_Block
+from eegpt import EEGPTCausal, EEGDiffusion, Convolution_Block, EEGPT
 # from eegpt import Decoder, Convolution_Block
 from utils.configs import *
 from module.EEGPT_mcae import EEGTransformer
@@ -345,9 +345,18 @@ if __name__ == '__main__':
     encoder.load_state_dict(encoder_state, strict=False)
     conv.load_state_dict(conv_state, strict=False)
 
+    # encoder = EEGPT(get_configs(**(MODELS_CONFIGS[tag])), 
+    #                 USE_LOSS_A =(variant != "A"),
+    #                 USE_LN     =(variant != "B"),
+    #                 USE_SKIP   =(variant != "C"),
+    #                 pretrained_LM = pretrained_LM).to(device)
+    # encoder.load_state_dict(state_dict, strict=False)
 
-    model = EEGDiffusion(encoder = encoder, conformer_module=conv, device=device).to(device)
-    # model = EEGPTCausal(pretrained_encoder=encoder, pretrained_conv = conv).to(device)
+
+    # model = EEGDiffusion(encoder = encoder, conformer_module=conv, device=device).to(device)
+    
+    model = EEGPTCausal(pretrained_encoder=encoder, pretrained_conv = conv).to(device)
+    # model = EEGPTCausal(pretrained_encoder=encoder).to(device)
     del state_dict
     del encoder_state
 

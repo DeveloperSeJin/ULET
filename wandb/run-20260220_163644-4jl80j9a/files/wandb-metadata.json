@@ -1,0 +1,81 @@
+{
+  "os":  "Linux-6.8.0-87-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.18",
+  "startedAt":  "2026-02-20T07:36:44.777449Z",
+  "args":  [
+    "--task_name",
+    "task1_task2_taskNRv2",
+    "--num_epoch_step1",
+    "100",
+    "--num_epoch_step2",
+    "50",
+    "-lr1",
+    "0.00002",
+    "-lr2",
+    "0.00002",
+    "-b",
+    "32",
+    "--cuda",
+    "cuda:0",
+    "-path",
+    "./save_model/checkpoints/pretrained_models/best/CNNembedding-module.pt",
+    "--save_name",
+    "CNNembedding"
+  ],
+  "program":  "/home/saul_park/workspace/code/ULET/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/DeveloperSeJin/ULET",
+    "commit":  "ce1e8815376c73cf723443f92044660446b0ce0c"
+  },
+  "email":  "sejinp98@gmail.com",
+  "root":  "/home/saul_park/workspace/code/ULET",
+  "host":  "affctiv",
+  "executable":  "/home/saul_park/miniconda3/envs/wordlevel/bin/python3",
+  "cpu_count":  28,
+  "cpu_count_logical":  56,
+  "gpu":  "NVIDIA RTX 6000 Ada Generation",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "1967317549056",
+      "used":  "54121582592"
+    }
+  },
+  "memory":  {
+    "total":  "269882855424"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  18176,
+      "architecture":  "Ada",
+      "uuid":  "GPU-d18a347a-a83b-6d85-78b3-42721c247510"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-8c5c166b-5d2a-5f99-04f7-ba8c9cd57e85"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-38dcbe00-6c8c-870a-83da-4ff0c96538b8"
+    },
+    {
+      "name":  "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  18176,
+      "architecture":  "Ada",
+      "uuid":  "GPU-f8e60a29-aeb0-a698-05b5-92f1db3438e7"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "pejunn5xafst389pdb637ibts3v21e2k"
+}

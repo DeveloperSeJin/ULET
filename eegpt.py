@@ -55,7 +55,7 @@ class EEGPT(nn.Module):
         self.USE_LN     = USE_LN
         self.USE_SKIP   = USE_SKIP
 
-        self.pretrained_LM = pretrained_LM
+        # self.pretrained_LM = pretrained_LM
         self.conv = Convolution_Block(input_size=1, hidden_dim = 56, chan_size = 62, time_size = 128, pooling_size = 64)
 
         
@@ -113,6 +113,8 @@ class EEGPT(nn.Module):
         self.chans_id       = encoder.prepare_chan_ids(Zuco_use_channels_names)
         
         self.loss_fn        = torch.nn.MSELoss()
+        # self.w = nn.Parameter(torch.randn(56))
+
 
         
 
@@ -141,7 +143,7 @@ class EEGPT(nn.Module):
         return torch.stack(mask_x, dim=0), torch.cat(mask_y+[mask_y_bx], dim=0)
     # (num_mask_x, mC_x),   # 2D tensor
     # (K,)                  # 1D tensor
-    def forward_target(self, x, mask_y, context):
+    def forward_target(self, x, mask_y):
         with torch.no_grad():
             # h = self.target_encoder(x, self.chans_id.to(x))
             h = self.target_encoder(x) # [32, 32, 4, 256]
@@ -149,14 +151,14 @@ class EEGPT(nn.Module):
             C, N = self.encoder.num_patches # 62, 80
 
             # x = [32, 62, 2560]
-            assert context.shape[-1]%N==0 and context.shape[-2]%C == 0
-            block_size_c, block_size_n = context.shape[-2]//C, context.shape[-1]//N # 41,1 
-            context = context.view(context.shape[0], C, block_size_c, N, block_size_n) # [32, 62, 1, 80, 41]
+            assert x.shape[-1]%N==0 and x.shape[-2]%C == 0
+            block_size_c, block_size_n = x.shape[-2]//C, x.shape[-1]//N # 41,1 
+            x = x.view(x.shape[0], C, block_size_c, N, block_size_n) # [32, 62, 1, 80, 41]
             # 将维度重新排列以使分块沿着通道轴和空间轴
             # 블록들이 채널 축과 공간 축에 맞춰 정렬되도록 치수를 재배열하십시오
-            context = context.permute(0, 3, 1, 2, 4).contiguous() # B, N, C, bc, bn # [32, 80, 62, 1, 41
-            context = context.view(context.shape[0], C, N, block_size_c * block_size_n) # [32, 62, 80, 41]
-            y = apply_mask(mask_y.to(context.device), context)
+            x = x.permute(0, 3, 1, 2, 4).contiguous() # B, N, C, bc, bn # [32, 80, 62, 1, 41
+            x = x.view(x.shape[0], C, N, block_size_c * block_size_n) # [32, 62, 80, 41]
+            y = apply_mask(mask_y.to(x.device), x)
             if self.USE_LN:
                 y = F.layer_norm(y, (y.size(-1),))
             return h, y
@@ -179,10 +181,15 @@ class EEGPT(nn.Module):
         x = x.unsqueeze(1)
         x = self.conv(x)
         x = x.squeeze(-2)
+        # 이 부분에 learnable parameter 넣기
+        # x: (B, S, T)
+        # channel-wise scaling
+        # x= (x * self.w.view(1, S, 1))  # (B, S, T)
 
-        embeded_context = self.pretrained_LM.model.shared(context)
+        
+        # embeded_context = self.pretrained_LM.model.shared(context)
 
-        h, y = self.forward_target(x, mask_y, embeded_context) # embeddied x, label
+        h, y = self.forward_target(x, mask_y) # embeddied x, label
         z, r = self.forward_context(x, mask_x, mask_y) # embeded x, reconstruction EEG
 
         loss2 = self.loss_fn(y, r)
@@ -202,7 +209,7 @@ class EEGPT(nn.Module):
         #     # loss 스케일 맞추기
         #     loss = de_loss + loss
         
-        return loss
+        return r, loss
 
 class Convolution_Block(nn.Module):
     def __init__(self, input_size=1, hidden_dim = 56, chan_size = 62, time_size = 64, pooling_size = 2):
@@ -380,6 +387,7 @@ class EEGPTCausal(nn.Module):
         x = x.unsqueeze(1)
         x = self.conv(x)
         x = x.squeeze(-2)
+        # x = x * self.target_encoder.w
 
         x = self.chan_conv(x)
         z = self.target_encoder(x)
@@ -402,7 +410,7 @@ class EEGPTCausal(nn.Module):
         
         out = self.pretrained_LM(inputs_embeds = logit, attention_mask = input_masks_batch,
                                         return_dict = True, labels = y)# (B, 56, vocab_size)
-        return None, out, out.loss
+        return out, out.loss
     
     @torch.no_grad()
     def generate(
